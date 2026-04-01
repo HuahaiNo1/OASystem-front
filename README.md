@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # OAfront
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -31,4 +30,4 @@ npm run build
 =======
 # OASystem-front
 OA项目前端代码
->>>>>>> ce604d0c5120b990a00fe29a7f5dddc99ec9211b
+
