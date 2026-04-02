@@ -15,7 +15,7 @@ let pagination = reactive({
     page: 1,
     total: 0
 })
-let page_size = ref(1)
+let page_size = ref(10)
 let dialogVisible = ref(false)
 let staffForm = reactive({
     status: 1
