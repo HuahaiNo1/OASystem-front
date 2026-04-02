@@ -212,8 +212,8 @@ const onUploadFail = (error) => {
                 <div style="display: flex; justify-content: space-between;">
                     <el-form-item label="每页：">
                         <el-select v-model="page_size" size="small" style="width: 100px;">
-                            <el-option select label="10条/页" :value="1" />
-                            <el-option label="20条/页" :value="2" />
+                            <el-option select label="10条/页" :value="10" />
+                            <el-option label="20条/页" :value="20" />
                         </el-select>
                     </el-form-item>
                     <el-pagination background layout="prev, pager, next" :total="pagination.total"
