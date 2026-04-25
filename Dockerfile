@@ -7,7 +7,7 @@ RUN mkdir -p /data/sock
 
 WORKDIR /www
 
-RUN cp /www/nginx_oa.conf.example /etc/nginx/conf.d/default.conf
+RUN cp /www/nginx_oa.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
 
