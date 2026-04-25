@@ -10,3 +10,6 @@ lerna-debug.log*
 node_modules
 .DS_Store
 
+# 本地/敏感配置（含域名、上游等，勿提交公开仓库）
+nginx_oa.conf
+
